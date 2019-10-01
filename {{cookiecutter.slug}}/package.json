@@ -1,0 +1,28 @@
+{
+    "name": "{{ cookiecutter.name }}",
+    "version": "0.1.0",
+    "description": "{{ cookiecutter.description }}",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "build": "./node_modules/.bin/gulp build",
+        "clean": "./node_modules/.bin/gulp clean"
+    },
+    "author": {
+        "name": "{{cookiecutter.author_name}}",
+        "email": "{{cookiecutter.author_email}}",
+        "url": "{{cookiecutter.author_url}}"
+    },
+    "license": "MIT",
+    "devDependencies": {
+        "autoprefixer": "^9.6.1",
+        "del": "^5.1.0",
+        "gulp": "^4.0.2",
+        "gulp-newer": "^1.4.0",
+        "gulp-postcss": "^8.0.0",
+        "postcss-css-variables": "^0.13.0",
+        "postcss-csso": "^3.0.0",
+        "postcss-import": "^12.0.1",
+        "postcss-url": "^8.0.0"
+    }
+}

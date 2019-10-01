@@ -1,0 +1,11 @@
+{
+    "name": "Hello World",
+    "slug": "{{ cookiecutter.name.lower().replace(' ', '_').replace('-', '_') }}",
+    "author_name": "John Doe",
+    "author_email": "john@doe.com",
+    "author_github_username": "johndoe",
+    "author_url": "{{ 'https://github.com/' + cookiecutter.author_github_username }}",
+    "description": "",
+    "site_language": ["en", "ru"],
+    "site_title": "{{ cookiecutter.name }}"
+}
