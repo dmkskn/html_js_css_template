@@ -17,6 +17,9 @@
     "devDependencies": {
         "autoprefixer": "^9.6.1",
         "del": "^5.1.0",
+        "eslint": "^6.5.1",
+        "eslint-config-airbnb-base": "^14.0.0",
+        "eslint-plugin-import": "^2.18.2",
         "gulp": "^4.0.2",
         "gulp-newer": "^1.4.0",
         "gulp-postcss": "^8.0.0",
