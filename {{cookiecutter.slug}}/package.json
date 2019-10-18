@@ -15,17 +15,25 @@
     },
     "license": "MIT",
     "devDependencies": {
+        "@babel/cli": "^7.6.3",
+        "@babel/core": "^7.6.3",
+        "@babel/preset-env": "^7.6.3",
         "autoprefixer": "^9.6.1",
         "del": "^5.1.0",
         "eslint": "^6.5.1",
         "eslint-config-airbnb-base": "^14.0.0",
         "eslint-plugin-import": "^2.18.2",
         "gulp": "^4.0.2",
+        "gulp-babel": "^8.0.0",
         "gulp-newer": "^1.4.0",
         "gulp-postcss": "^8.0.0",
+        "gulp-uglify": "^3.0.2",
         "postcss-css-variables": "^0.13.0",
         "postcss-csso": "^3.0.0",
         "postcss-import": "^12.0.1",
         "postcss-url": "^8.0.0"
-    }
+    },
+    "browserslist": [
+        "defaults"
+    ]
 }

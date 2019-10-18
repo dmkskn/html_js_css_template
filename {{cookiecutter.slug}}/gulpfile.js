@@ -4,6 +4,8 @@ const {
 } = require('gulp');
 const newer = require('gulp-newer');
 const postcss = require('gulp-postcss');
+const babel = require('gulp-babel');
+const uglify = require('gulp-uglify');
 const del = require('del');
 
 
@@ -62,6 +64,8 @@ function favicons() {
 
 function scripts() {
   return src(paths.scripts.src)
+    .pipe(babel())
+    .pipe(uglify())
     .pipe(dest(paths.scripts.dest));
 }
 
