@@ -1,9 +1,6 @@
 const presets = [
   [
-    '@babel/env',
-    {
-      useBuiltIns: 'entry',
-    },
+    '@babel/preset-env',
   ],
 ];
 
